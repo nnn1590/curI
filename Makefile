@@ -14,7 +14,7 @@ CFLAGS = -Wall
 all: $(TARGET)
 
 .aa.dat: 
-	echo "#define" `echo $* | sed "s/aa\///g" | tr "[:lower:]" "[:upper:]"` '(\\' > $@
+	echo "#define" `echo $* | sed "s/aa\///g" | tr "[:lower:]" "[:upper:]"` "(\\" > $@
 	cat $< | sed -e 's/^/\"/g' | sed -e 's/$$/\" \"\\n\" \\/g' | cat >> $@
 	#echo "" >> $@
 	echo "\"\")" >> $@
