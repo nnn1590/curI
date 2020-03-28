@@ -38,8 +38,8 @@ oc,'''...''''''',;lodc',,;,:c;,,;;,;,:'.':oo:'.''.''.':ldl,;:;:,';;,,;
 ,,'.;;::;,',;;;,c,;,,;,;;;c,',ll'......'';loooodddool;''''''..'.'.';ld
 ~~~~~~
 
-## What's this?
-Joke. (also for rehabilitation of C programming language, shell script and make)
+## これは何?
+悪ふざけ. (C言語, シェルスクリプト, make のリハビリを兼ねてます)
 
-## How to build
-Just `make`. Run and have fun.
+## ビルド方法
+makeするだけ. 実行して楽しみましょう.
